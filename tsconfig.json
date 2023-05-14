@@ -26,7 +26,14 @@
     "lib": [
       "ES6",
       "DOM"
-    ]
+    ],
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@helpers/*": ["helpers/*"],
+      "@configs/*": ["configs/*"],
+      "@contracts/*": ["contracts/*"]
+    },
+
   },
   "include": [
     "src/**/*.ts"
