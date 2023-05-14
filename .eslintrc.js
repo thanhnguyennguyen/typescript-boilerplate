@@ -4,9 +4,11 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     'prettier',
+	'json-format'
   ],
   extends: [
     'prettier',
+	'plugin:prettier/recommended',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
   ],
